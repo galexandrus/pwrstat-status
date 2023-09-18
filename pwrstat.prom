@@ -1,0 +1,18 @@
+# HELP utility_voltage Command 'pwrstat -status' field 'Utility Voltage', V.
+# TYPE utility_voltage gauge
+utility_voltage 226
+# HELP output_voltage Command 'pwrstat -status' field 'Output Voltage', V.
+# TYPE output_voltage gauge
+output_voltage 226
+# HELP battery_capacity Command 'pwrstat -status' field 'Battery Capacity', %.
+# TYPE battery_capacity gauge
+battery_capacity 100
+# HELP remaining_runtime Command 'pwrstat -status' field 'Remaining Runtime', min.
+# TYPE remaining_runtime gauge
+remaining_runtime 41
+# HELP load_watt Command 'pwrstat -status' field 'Load', Watt.
+# TYPE load_watt gauge
+load_watt 61
+# HELP load_percent Command 'pwrstat -status' field 'Load', %.
+# TYPE load_percent gauge
+load_percent 17
