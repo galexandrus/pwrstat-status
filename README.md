@@ -2,10 +2,10 @@
 grafana+prometheus monitoring system for UPS CyberPower UT650EG
 
 Для контроля уровня напряжения в сети можно организовать мониторинг с использованием grafana и prometheus.
-Система работает следующим образом: 
-<br>cron выполняет скрипт bash,
-<br>идёт обращение к UPS CyberPower UT650EG, далее с помощью awk обрабатывается ответ UPS,
-<br>итог записывается в файл, а prometheus считывает данные из этого файла.
+<br>Система работает следующим образом:
+- cron выполняет скрипт bash,
+- идёт обращение к UPS CyberPower UT650EG, далее с помощью awk обрабатывается ответ UPS,
+- итог записывается в файл, а prometheus считывает данные из этого файла.
 
 На localhost нужно установить: grafana, prometheus, node_exporter. \
 <a href="https://www.youtube.com/playlist?list=PLoRLk9325TJLaKTTeJYLLctA_ibGnp58_">Инструкции по установке prometheus, node_exporter на превосходном "стандартном" английском</a>
