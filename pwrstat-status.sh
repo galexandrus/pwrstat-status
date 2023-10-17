@@ -1,5 +1,5 @@
 #!/bin/bash
-COUNT=6  # executions per minute
+COUNT=2  # executions per minute
 for ((i=0; i<$COUNT; i++))
 do
 	pwrstat -status | awk -f pwrstat-node.awk > pwrstat.prom

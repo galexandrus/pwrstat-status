@@ -20,8 +20,8 @@ grafana+prometheus monitoring system for UPS CyberPower UT650EG
 В каталоге /etc/prometheus в конфигурацию по умолчанию для prometheus добавить:
 ```
   - job_name: "node_exporter"
-    scrape_interval: 10s
-    scrape_timeout: 5s
+    scrape_interval: 30s
+    scrape_timeout: 10s
     static_configs:
       - targets: ["localhost:9100"]
 ```
