@@ -42,3 +42,5 @@ global:
 
 И настроить внешний вид в grafana. \
 ![Пример](https://github.com/galexandrus/pwrstat-status/tree/main/img/demo.png)
+
+Возможны проблемы со стороны SELINUX. Если установить в режим permissive, проблема решится.
