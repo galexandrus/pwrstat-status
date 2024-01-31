@@ -44,3 +44,6 @@ global:
 ![Пример](https://github.com/galexandrus/pwrstat-status/tree/main/img/demo.png)
 
 Возможны проблемы со стороны SELINUX. Если установить в режим permissive, проблема решится.
+
+Данная конфигурация протестирована на fedora 37, 38, 39.
+
